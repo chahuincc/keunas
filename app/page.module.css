@@ -2,17 +2,9 @@
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
-
   --button-primary-hover: #ffffff;
   --button-secondary-hover: #f2f2f2;
-
-  /* display: flex; */
-  /* grid-template-rows: 20px 1fr 20px; */
-  /* align-items: start;
-  justify-items: center; */
   min-height: 100svh;
-  /* padding: 80px; */
-  /* gap: 4px; */
   font-family: var(--font-geist-sans);
 }
 
@@ -22,7 +14,7 @@
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
 
-    --button-primary-hover: #0b9159;
+    --button-primary-hover: #66ddac;
     --button-secondary-hover: #96158b;
   }
 }
@@ -30,9 +22,8 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 10rem 16rem;
-  /* grid-row-start: 2; */
+  /* gap: 32px; */
+  padding: 0rem 16rem;
 }
 
 .main ol {
@@ -85,7 +76,7 @@
 a.primary {
   background: var(--foreground);
   color: var(--background);
-  gap: 8px;
+  /* gap: 8px; */
 }
 
 a.secondary {
@@ -93,20 +84,30 @@ a.secondary {
   min-width: 180px;
 }
 
-.footer {
-  grid-row-start: 3;
+.skills {
   display: flex;
-  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #1f4312;
+  padding: 4rem 0rem;
+  /* color: #ba9e47; */
 }
 
-.footer a {
+.skills a {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.footer img {
+.skills img {
   flex-shrink: 0;
+}
+.imgManta{
+  margin-top: 6rem;
+  width: 100%;
+  height: 4rem;
+  object-fit:cover;
 }
 
 /* Enable hover only on non-touch devices */
@@ -121,42 +122,49 @@ a.secondary {
     border-color: transparent;
   }
 
-  .footer a:hover {
+  .skills a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+  .imgManta{
+    margin-top: 4rem;
+    width: 100%;
+    height: 1rem;
+
+    object-fit: cover;
+    /* border-radius: 10px; */
+  }
   .page {
     padding: 0px;
     padding-bottom: 80px;
   }
   
   .main {
-    padding: 2rem; 
+    padding: 0rem 2rem 0rem 2rem; 
     align-items: center;
   }
-
+  
   .main ol {
     text-align: center;
   }
-
+  
   .ctas {
     flex-direction: column;
   }
-
+  
   .ctas a {
     font-size: 14px;
     height: 40px;
-    /* padding: 0 16px; */
   }
-
+  
   a.secondary {
     min-width: auto;
   }
-
-  .footer {
+  
+  .skills {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -164,6 +172,7 @@ a.secondary {
 }
 
 @media (prefers-color-scheme: dark) {
+  /* padding-top: 5rem; */
   .logo {
     filter: invert();
   }

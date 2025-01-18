@@ -12,7 +12,9 @@
 
 .banner {
   height: 20rem;
-  width: 100%; 
+  width: 100%;
+  object-fit: cover;
+
 }
 
 .bannerContainer::before {
@@ -28,6 +30,7 @@
 }
 .bannerContainer:hover::before {
   background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
 }
 
 .subtitle {

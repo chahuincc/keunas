@@ -13,8 +13,17 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <NavBar />
+         <div className={styles.imgContainer}>
+            <Image 
+            className={styles.imgManta}
+            src="/manta.webp"
+            alt="Next.js logo"
+            height={25}
+            width={1000}
+            />
+        </div>
       <main className={styles.main}>
-        <div className={styles.footer}>
+        <div className={styles.skills}>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
@@ -22,12 +31,12 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/icon-keunasid-verified.svg"
+            alt="security icon"
+            width={20}
+            height={20}
           />
-          Learn
+          Seguridad
         </a>
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -36,12 +45,12 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
+            src="/icon-keunas-comodidad.svg"
+            alt="comodidad icon"
+            width={20}
+            height={20}
           />
-          Examples
+          Comodidad
         </a>
         <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -50,12 +59,12 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src="/icon-keunasauto.svg"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width={20}
+            height={20}
           />
-          Go to nextjs.org →
+          Puntualidad
         </a>
         </div>
           <Banners data={imgSrc}/>

@@ -10,7 +10,8 @@ const NavBar = () => {
   };
 
   return (
-    <div className={styles.container}>
+    
+    <><div className={styles.container}>
       <div className={styles.logo}>Keunas</div>
       <div className={`${styles.menuIcon} ${isOpen ? styles.open : ""}`} onClick={toggleMenu}>
         <div className={styles.bar}></div>
@@ -26,6 +27,8 @@ const NavBar = () => {
         </ul>
       </nav>
     </div>
+   
+      </>
   );
 };
 
