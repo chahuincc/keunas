@@ -69,7 +69,7 @@ export default function Home() {
         </div>
           <Banners data={imgSrc}/>
 
-        <div className={styles.ctas}>
+        {/* <div className={styles.ctas}>
           <a
             className={styles.primary}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -93,7 +93,7 @@ export default function Home() {
           >
             Read our docs
           </a>
-        </div>
+        </div> */}
       </main>
       <footer >
         
