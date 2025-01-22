@@ -16,10 +16,10 @@ export default function Home() {
          <div className={styles.imgContainer}>
             <Image 
             className={styles.imgManta}
-            src="/manta.webp"
+            src="/manta.svg"
             alt="Next.js logo"
             height={25}
-            width={1000}
+            width={500}
             />
         </div>
       <main className={styles.main}>
