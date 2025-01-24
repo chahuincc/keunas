@@ -1,0 +1,51 @@
+.image {
+    width: 100%;
+    /* height: 100%; */
+    height: 35rem;
+    object-fit: cover;
+}
+.container h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+    margin-top: 2rem;
+}   
+
+.containerTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    flex-direction: column;
+    height: 100%;
+}
+.container p {
+    font-size: 1rem;
+    font-weight:300;
+    margin-left: 2rem;
+    color: #333;
+    margin-top: 1rem;
+}
+.containerRowTag {
+    display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 2rem 6rem;
+}
+
+.containerRowTag p {
+    font-size: 1rem;
+    font-weight:300;
+    color: #333;
+    margin-left: 2.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .image {
+        margin-top: 4rem;
+        height: 18rem;
+    }
+    
+}

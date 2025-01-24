@@ -7,7 +7,7 @@ const Banners = ({data}) => {
     <div className={styles.banners}>
       <div className={styles.bannerContainer}>
         <Image
-          className={`${data[0].imgStyle} ${styles.banner}`}
+          className={`${styles.bannerPrincipal} ${data[0].imgStyle} ${styles.banner}`}
           src={data[0].url}
           alt="Next.js logo"
           layout="fill"

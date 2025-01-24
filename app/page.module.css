@@ -74,7 +74,8 @@
 }
 
 a.primary {
-  background: var(--foreground);
+  /* background: var(--foreground); */
+  background-color: #ba9e47;
   color: var(--background);
   /* gap: 8px; */
 }
@@ -141,7 +142,7 @@ a.secondary {
   }
   
   .main {
-    padding: 0rem 2rem 0rem 2rem; 
+    padding: 0rem .5rem 0rem .5rem; 
     align-items: center;
   }
   
@@ -151,6 +152,7 @@ a.secondary {
   
   .ctas {
     flex-direction: column;
+    /* background-color: #1f4312; */
   }
   
   .ctas a {
