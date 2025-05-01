@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import NavBar from "./components/NavBar/NavBar";
 import Banners from "./components/Banner/Banners";
 import DetailService from "./components/DetailService/DetailService";
+import VideoFondo from "./components/VideoFondo/VideoFondo";
+
 
 export default function Home() {
   const imgSrc = [
@@ -15,15 +17,16 @@ export default function Home() {
     <div className={styles.page}>
       <NavBar />
          <div className={styles.imgContainer}>
-            <Image 
+            {/* <Image 
             className={styles.imgManta}
             src="/manta.svg"
             alt="Next.js logo"
             height={25}
             width={500}
-            />
+            /> */}
         </div>
       <main className={styles.main}>
+        <VideoFondo/>
         <div className={styles.skills}>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"

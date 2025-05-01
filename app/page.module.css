@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   /* gap: 32px; */
-  padding: 0rem 16rem;
+  /* padding: 0rem 16rem; */
 }
 
 .main ol {
@@ -142,7 +142,7 @@ a.secondary {
   }
   
   .main {
-    padding: 0rem .5rem 0rem .5rem; 
+    /* padding: 0rem .5rem 0rem .5rem;  */
     align-items: center;
   }
   
