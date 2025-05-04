@@ -8,10 +8,10 @@ function VideoFondo() {
         <source src="/Home.mp4" type="video/mp4" />
         Tu navegador no soporta la etiqueta de video.
       </video>
-      <div className="degradado-blanco"></div> {/* Nuevo div para el degradado */}
+      <div className="degradado-verde"></div> {/* Nuevo div para el degradado */}
       <div className="contenido-encima">
-        <h1>Bienvenido a mi sitio web</h1>
-        <p>Este es el contenido que se mostrará sobre el video.</p>
+        <h1>Conozcamos Cusco</h1>
+        <p>Contactanos para obtener movilidad por todo el Cusco</p>
         {/* Otros componentes o texto */}
       </div>
     </div>
