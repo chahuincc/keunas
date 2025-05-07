@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-      <meta name="theme-color" content="#000080" />
+      <meta name="theme-color" content="#1f4312" />
       <title>keunas-travel</title>
     </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable}`}>
