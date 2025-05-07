@@ -20,30 +20,11 @@ export default function Home() {
     <div className={styles.page}>
       <NavBar />
       <main className={styles.main}>
-
         <VideoFondo/>
         <ImageCamioneta/>
         <DetailService />
         <Banners data={data}/>
-        <WhatsappButton />
-        {/* <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="www.google.com.ar"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/descargar.png"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Ver mas
-          </a>
-        </div> */}
-        
+        <WhatsappButton /> 
       </main>
       <footer >
         

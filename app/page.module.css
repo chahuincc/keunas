@@ -14,8 +14,8 @@
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
 
-    --button-primary-hover: #66ddac;
-    --button-secondary-hover: #96158b;
+    --button-primary-hover: #ba9e47;
+    --button-secondary-hover: #ffffff;
   }
 }
 
