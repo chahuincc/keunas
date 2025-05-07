@@ -22,8 +22,6 @@
 .main {
   display: flex;
   flex-direction: column;
-  /* gap: 32px; */
-  /* padding: 0rem 16rem; */
 }
 
 .main ol {
@@ -85,47 +83,15 @@ a.secondary {
   min-width: 180px;
 }
 
-.skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  color: #1f4312;
-  padding: 4rem 0rem;
-  /* color: #ba9e47; */
-}
-
-.skills a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.skills img {
-  flex-shrink: 0;
-}
-.imgManta{
-  margin-top: 6rem;
-  width: 100%;
-  height: 4;
-  object-fit: fill;
-}
-
-.suvImage {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 1s ease, transform 1s ease;
-}
-
-.suvImage.animate {
-  opacity: 1;
-  transform: translateY(0);
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(20px); /* Mueve el texto ligeramente hacia la derecha */
+  }
 }
 
 /* Enable hover only on non-touch devices */

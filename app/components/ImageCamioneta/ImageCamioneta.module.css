@@ -1,0 +1,21 @@
+.containerDataSkill{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh; 
+}
+.suvImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .suvImage.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

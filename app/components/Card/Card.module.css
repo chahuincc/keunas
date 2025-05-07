@@ -1,0 +1,25 @@
+
+.skillsCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #1f4312;
+    padding: 2rem 2rem;
+    margin: 2rem;
+    /* width: 100%; */
+    border: #3e7928 2px solid;
+    border-radius: 15px;
+    /* color: #ba9e47; */
+  }
+  
+  .skillsCard a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .skillsCard img {
+    flex-shrink: 0;
+  }
+  

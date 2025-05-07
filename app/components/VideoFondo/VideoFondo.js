@@ -1,5 +1,5 @@
 import React from 'react';
-import './VideoFondo.css'; // Importa un archivo CSS para estilos
+import './VideoFondo.css';
 
 function VideoFondo() {
   return (
@@ -8,11 +8,11 @@ function VideoFondo() {
         <source src="/Home.mp4" type="video/mp4" />
         Tu navegador no soporta la etiqueta de video.
       </video>
-      <div className="degradado-verde"></div> {/* Nuevo div para el degradado */}
+      <div className="degradado-verde"></div> 
+      <div className="degradado-verde"></div> 
       <div className="contenido-encima">
         <h1>Conozcamos Cusco</h1>
         <p>Contactanos para obtener movilidad por todo el Cusco</p>
-        {/* Otros componentes o texto */}
       </div>
     </div>
   );
