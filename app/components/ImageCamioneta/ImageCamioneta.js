@@ -34,14 +34,14 @@ const ImageCamioneta = () => {
     <div className={styles.containerDataSkill} >
         <div
         className={`${styles.suvImage} ${isVisible ? styles.animate : ''}`}
-        ref={suvImageRef}
+            ref={suvImageRef}
         >
             <Image
+            className={styles.suvImageStyle}
                 aria-hidden
                 src="/suv.jpg"
                 alt="security icon"
-                width={600}
-                height={450}
+                fill
                 />
         </div>
         <div className={styles.containerCards}>

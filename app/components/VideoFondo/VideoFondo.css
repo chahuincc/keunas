@@ -75,3 +75,32 @@
       transform: translate(-50%, -50%); /* Termina centrado */
     }
   }
+  @media (max-width: 768px) {
+    .video-fondo-container {
+    height: 100dvh;
+    overflow: hidden;
+    }
+    .video-fondo {
+      width: auto; 
+      height: 100%;
+      object-fit: scale-down; 
+    }
+    .contenido-encima {
+    
+     padding: .5rem 0rem;
+     width: 80%;
+     border-radius: 8px
+    }
+    .contenido-encima h1 {
+      font-size: 2rem; /* Tamaño más grande para el título */
+      font-weight: 700; /* Más peso para el título */
+      padding-bottom: 1rem;
+      /* text-emphasis: filled; */
+      -webkit-text-stroke: 1px white; /* Borde blanco para navegadores compatibles */
+    }
+    .contenido-encima p {
+      font-size: 1.2rem; /* Tamaño más grande para el párrafo */
+      font-weight: 500; /* Peso medio para el párrafo */
+      color: white; /* Borde blanco para navegadores compatibles */
+    }
+  }

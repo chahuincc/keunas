@@ -3,23 +3,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    color: #1f4312;
     padding: 2rem 2rem;
     margin: 2rem;
-    /* width: 100%; */
-    border: #3e7928 2px solid;
     border-radius: 15px;
-    /* color: #ba9e47; */
+    width: 300px;
+    border: #3e7928 2px solid;
+}
+.skillsCard p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ba9e47;
+    text-align: center;
+    margin-left: 2rem;
+}
+  .skillsCard:hover{
+    border: #3e7928 2px solid;
+    color: #ba9e47;
+}
+.skillsCard:hover p {
+      color: #1f4312;
+      font-weight: 500;
   }
-  
-  .skillsCard a {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  .skillsCard:hover img {
+    transform: scale(1.1);
   }
-  
-  .skillsCard img {
-    flex-shrink: 0;
-  }
-  
+
+  @media (max-width: 768px) {
+    .skillsCard {
+        width: 100%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .skillsCard p {
+        font-size: 1.2rem;
+    }
+    .skillsCard:hover p {
+        font-size: 1.5rem;
+    }
+    .skillsCard:hover img {
+        transform: scale(1.1);
+    }
+}
