@@ -13,7 +13,7 @@
     min-height: 100%;
     width: auto;
     height: auto;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-72%) translateY(-50%);
     object-fit: cover; /* Asegura que el video cubra todo el contenedor sin deformarse */
     z-index: -1; /* Coloca el video detrás del contenido */
   }
@@ -77,13 +77,15 @@
   }
   @media (max-width: 768px) {
     .video-fondo-container {
-    height: 100dvh;
-    overflow: hidden;
+    
+    height: 100vh;
+    
     }
     .video-fondo {
       width: auto; 
       height: 100%;
-      object-fit: scale-down; 
+      
+      /* object-fit: scale-down;  */
     }
     .contenido-encima {
     

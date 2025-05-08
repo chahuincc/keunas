@@ -33,6 +33,8 @@
         width: 100%;
         margin: 1rem;
         padding: 1rem;
+        border: #3e7928 .5px solid;
+        border-radius: 10px;
     }
     .skillsCard p {
         font-size: 1.2rem;
