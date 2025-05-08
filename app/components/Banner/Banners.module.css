@@ -43,7 +43,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   z-index: 2;
   /* text-shadow: 2px 2px 4px rgba(180, 182, 180, 0.7); */
   opacity: 0; /* Oculta el subtítulo por defecto */
