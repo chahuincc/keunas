@@ -27,7 +27,6 @@ export default function Home() {
         <WhatsappButton /> 
       </main>
       <footer >
-        
       </footer>
     </div>
   );

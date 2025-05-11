@@ -1,20 +1,34 @@
 .containerDataService {
-    padding: 7rem;
+    padding: 0 10rem 7rem 10rem;
     text-align: center;
 }
 .containerDataService h1 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     font-weight: 500;
+    font-size: -webkit-xxx-large;
     color: #333;
     margin-top: 2rem;
+    padding-bottom: 1.5rem
 }
 .containerDataService p {
-    font-size: 1rem;
     font-weight:300;
-    margin-left: 2rem;
-    color: #f00909;
+    font-size: 1.5rem;
+    /* margin-left: 2rem; */
+    color: #6d6d6d;
     margin-top: 1rem;
 }
 @media (max-width: 768px) {
-    
+    .containerDataService {
+        padding: 0 1rem 7rem 1rem;
+        text-align: center;
+    }
+    .containerDataService p {
+        font-size: 1rem;
+
+    }
+    .containerDataService h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        padding-bottom: 0.5rem
+    }
 }

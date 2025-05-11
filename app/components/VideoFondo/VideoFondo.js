@@ -11,8 +11,8 @@ function VideoFondo() {
       {/* <div className="degradado-verde"></div>  */}
       <div className="degradado-verde"></div> 
       <div className="contenido-encima">
-        <h1>Conozcamos Cusco</h1>
-        <p>Contactanos para obtener movilidad por todo el Cusco</p>
+        <h1>Transporte en Cusco</h1>
+        <p>Experiencias Auténticas en el Corazón de los Andes Planifica tu Viaje a Cusco con Nosotros.</p>
       </div>
     </div>
   );

@@ -3,11 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 2rem;
+    padding: 1.5rem 1.5rem;
     margin: 2rem;
     border-radius: 7px;
     width: 300px;
     border: #3e7928 1px solid;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
 }
 .skillsCard p {
     font-size: 1.5rem;
@@ -25,16 +28,27 @@
 .skillsCard:hover p {
     color: #1f4312;
     font-weight: 500;
-    /* font-size: 1. */
   }
   .skillsCard:hover img {
     transform: scale(1.1);
   }
 
+  .skillsCard.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+    .icon {
+        width: 60px;
+        height: 60px;
+        /* object-fit: cover; */
+        /* border-radius: 100%; */
+        transition: transform 0.5s ease, box-shadow 0.6s ease, background-color 0.6s ease; /* Transición más lenta */
+    }
+
   @media (max-width: 768px) {
     .skillsCard {
         width: 100%;
-        margin: 1rem;
+        margin: 1rem 0;
         padding: 1rem;
         border: #3e7928 1px solid;
         border-radius: 7px;
@@ -48,5 +62,9 @@
     }
     .skillsCard:hover img {
         transform: scale(1);
+    }
+    .icon {
+        width: 45px;
+        height: 45px;
     }
 }

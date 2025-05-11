@@ -1,34 +1,12 @@
-import React, { useEffect, useRef, useState }  from 'react'
+import React from 'react'
 import Image from "next/image";
 import styles from "./ImageCamioneta.module.css";
 import Card from "../Card/Card";
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 
 const ImageCamioneta = () => {
 
-    const suvImageRef = useRef(null);
-    const [isVisible, setIsVisible] = useState(false);
-  
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-          ([entry]) => {
-            if (entry.isIntersecting) {
-              setIsVisible(true);
-            }
-          },
-          { threshold: 0.5 }
-        );
-    
-        if (suvImageRef.current) {
-          observer.observe(suvImageRef.current);
-        }
-    
-        return () => {
-          if (suvImageRef.current) {
-            observer.unobserve(suvImageRef.current);
-          }
-        };
-      }, []);
+   const [isVisible, suvImageRef] = useIntersectionObserver(0.5);
 
   return (
     <div className={styles.containerDataSkill} >

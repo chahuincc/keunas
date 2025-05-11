@@ -6,7 +6,7 @@ const WhatsappButton = () => {
   return (
     <div className={styles.whatsappContainer}>
           <a
-            href="https://wa.me/1234567890?text=Hola,%20me%20gustaría%20obtener%20más%20información."
+            href="https://wa.me/+5491125599997?text=Hola,%20me%20gustaría%20obtener%20más%20información."
             target="_blank"
             rel="noopener noreferrer"
             className={styles.whatsappButton}

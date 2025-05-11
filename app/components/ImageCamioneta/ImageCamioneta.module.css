@@ -8,35 +8,36 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     object-fit: cover;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1s ease, transform 1s ease;
     width: 40rem;
     height: 30rem;
-  }
-  .suvImage.animate {
+}
+.suvImage.animate {
     opacity: 1;
     transform: translateY(0);
   }
   
   @media (max-width: 768px) {
-        .containerDataSkill{
+      .containerDataSkill{
           flex-direction: column;
-          height: 100vh; 
+          justify-content: center;
+          height: 85vh; 
         }
         .suvImage {
             height: 16rem;
             width: 20rem;
             object-fit: cover;
+            margin-bottom: 2.5rem;
         }
         .containerCards{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 2rem;
+            /* gap: 2rem; */
             /* margin-top: 2rem; */
         }
 }
