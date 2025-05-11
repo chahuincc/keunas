@@ -12,7 +12,7 @@ function VideoFondo() {
       <div className="degradado-verde"></div> 
       <div className="contenido-encima">
         <h1>Transporte en Cusco</h1>
-        <p>Experiencias Auténticas en el Corazón de los Andes Planifica tu Viaje a Cusco con Nosotros.</p>
+        <p>Facilitamos tu movilidad en Cusco y sus alrededores con nuestros servicios de transporte privado y personalizado.</p>
       </div>
     </div>
   );

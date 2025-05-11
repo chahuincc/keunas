@@ -5,7 +5,7 @@ const DetailService = () => {
   return (
     <div className={styles.containerDataService}>
         <h1> Cusco: Un Tesoro Histórico y Cultural </h1>
-        <p>Facilitamos tu movilidad en Cusco y sus alrededores con nuestros servicios de transporte privado y personalizado. Nos enfocamos en brindar comodidad, seguridad y puntualidad para que disfrutes al máximo de tu experiencia de viaje.</p>
+        <p>Para que tu exploración de Cusco y sus alrededores sea aún más placentera, ponemos a tu disposición servicios de transporte privado y seguro. Ya sea que necesites un traslado desde el aeropuerto, transporte para tus tours o movilidad interurbana, estamos aquí para facilitarte el viaje. ¡Contáctanos por WhatsApp para coordinar tus traslados!</p>
       </div>
   )
 }

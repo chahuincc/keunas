@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     
     <><div className={styles.container}>
-      <div className={styles.logo}>Purisun</div>
+      <div className={styles.logo}>Keunas</div>
       <div className={`${styles.menuIcon} ${isOpen ? styles.open : ""}`} onClick={toggleMenu}>
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
