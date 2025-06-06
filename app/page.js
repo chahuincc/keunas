@@ -7,6 +7,7 @@ import DetailService from "./components/DetailService/DetailService";
 import VideoFondo from "./components/VideoFondo/VideoFondo";
 import ImageCamioneta from './components/ImageCamioneta/ImageCamioneta';
 import WhatsappButton from './components/whatsappButton/WhatsappButton';
+import Footer from './components/Footer/Footer';
 
 export default function Home() {
   const data = [
@@ -22,11 +23,12 @@ export default function Home() {
       <main className={styles.main}>
         <VideoFondo/>
         <ImageCamioneta/>
-        <DetailService />
+        <DetailService id="services"/>
         <Banners data={data}/>
         <WhatsappButton /> 
       </main>
       <footer >
+        <Footer/>
       </footer>
     </div>
   );
