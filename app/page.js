@@ -28,7 +28,7 @@ export default function Home() {
         <WhatsappButton /> 
       </main>
       <footer >
-        <Footer id="contac"/>
+        <Footer id="contact"/>
       </footer>
     </div>
   );
