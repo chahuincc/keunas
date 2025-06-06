@@ -21,14 +21,14 @@ export default function Home() {
     <div className={styles.page}>
       <NavBar />
       <main className={styles.main}>
-        <VideoFondo/>
-        <ImageCamioneta/>
-        <DetailService id="services"/>
-        <Banners data={data}/>
+        <VideoFondo id="home"/>
+        <ImageCamioneta id="skills"/>
+        <DetailService id="about"/>
+        <Banners id="galery" data={data}/>
         <WhatsappButton /> 
       </main>
       <footer >
-        <Footer/>
+        <Footer id="contac"/>
       </footer>
     </div>
   );

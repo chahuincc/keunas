@@ -17,18 +17,23 @@
     color: #6d6d6d;
     margin-top: 1rem;
 }
+.important{
+    font-weight: 500;
+    color: #1f4312;
+}
 @media (max-width: 768px) {
     .containerDataService {
-        padding: 0 1rem 7rem 1rem;
+        /* margin-top: 4rem; */
+        padding: 5rem 1rem 0rem 1rem;
         text-align: center;
-    }
-    .containerDataService p {
-        font-size: 1rem;
-
     }
     .containerDataService h1 {
         font-size: 1.5rem;
         margin-top: 1rem;
+        color: #092001;
         padding-bottom: 0.5rem
+    }
+    .containerDataService p {
+        font-size: 1rem;
     }
 }

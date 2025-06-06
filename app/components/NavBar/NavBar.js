@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from "react";
 import styles from "./NavBar.module.css";
+import Link from 'next/link'
+
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,17 +14,21 @@ const NavBar = () => {
   return (
     
     <><div className={styles.container}>
-      <div className={styles.logo}>Keunas</div>
+      <div className={styles.containerLogo}>
+        <div className={styles.logo}>Keunas</div>
+        <div className={styles.logo_decorator}>Travel</div>
+      </div>
       <div className={`${styles.menuIcon} ${isOpen ? styles.open : ""}`} onClick={toggleMenu}>
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
         <div className={styles.bar}></div>
       </div>
-      <nav className={`${styles.navMenu} ${isOpen ? styles.showMenu : ""}`}>
+      <nav className={`${styles.navMenu} ${isOpen ? styles.showMenu : styles.noShowMenu}`}>
         <ul>
-          <li  >Servicios</li>
-          <li>Galeria</li>
-          <li>Quienes somos</li>
+          <Link onClick={toggleMenu} className={styles.li} href="#home" >Inicio</Link>
+          <Link onClick={toggleMenu} className={styles.li} href="#galery" >Galeria</Link>
+          <Link onClick={toggleMenu} className={styles.li} href="#contac" >Contactos</Link>
+          <Link onClick={toggleMenu} className={styles.li} href="#about" >Servicios</Link>
         </ul>
       </nav>
     </div>

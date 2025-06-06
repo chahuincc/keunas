@@ -2,9 +2,9 @@ import React from 'react'
 import styles from "./Banners.module.css";
 import Image from "next/image";
 
-const Banners = ({data}) => {
+const Banners = ({data, id}) => {
   return (
-    <div className={styles.banners}>
+    <div id={id} className={styles.banners}>
       <div className={styles.bannerContainer}>
         <Image
           className={`${styles.bannerPrincipal} ${data[0].imgStyle} ${styles.banner}`}

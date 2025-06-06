@@ -3,7 +3,7 @@
   color: white;
   padding: 2rem 1rem;
   text-align: center;
-  /* background-color: ; */
+
 }
 
 .container {
@@ -47,14 +47,23 @@
 }
 
 @media (max-width: 768px) {
+    .footer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 25rem;
+    }
   .container {
     flex-direction: column;
     text-align: center;
     /* height: 10rem; */
   }
 
-  .links,
-  .social {
+  .links a,
+  .social a  {
+    font-size: .9rem;
+    color: rgb(255, 255, 255);
     flex-direction: column;
     gap: 0.5rem;
   }
