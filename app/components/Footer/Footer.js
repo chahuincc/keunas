@@ -11,7 +11,7 @@ const Footer = ({id}) => {
         <div className={styles.links}>
           <a href="#about">Sobre Nosotros</a>
           <a href="#services">Servicios</a>
-          <a href="#contact">Contacto</a>
+          <a href="https://wa.me/+51956342071?text=Quisiera%20más%20información%20acerca%20de%20los%20servicios%20de%20transporte.">Contacto</a>
         </div>
         <div className={styles.social}>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
