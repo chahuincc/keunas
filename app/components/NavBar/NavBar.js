@@ -27,7 +27,7 @@ const NavBar = () => {
         <ul>
           <Link onClick={toggleMenu} className={styles.li} href="#home" >Inicio</Link>
           <Link onClick={toggleMenu} className={styles.li} href="#galery" >Galeria</Link>
-          <Link onClick={toggleMenu} className={styles.li} href="#contac" >Contactos</Link>
+          <Link onClick={toggleMenu} className={styles.li} href="https://wa.me/+51956342071?text=Quisiera%20más%20información%20acerca%20de%20los%20servicios%20de%20transporte.">Contactos</Link>
           <Link onClick={toggleMenu} className={styles.li} href="#about" >Servicios</Link>
         </ul>
       </nav>

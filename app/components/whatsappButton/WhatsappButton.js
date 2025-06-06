@@ -33,7 +33,7 @@ const WhatsappButton = () => {
     <div className={styles.whatsappContainer}>
       {showText && <div className={styles.floatingText}>¿Tiene alguna duda?</div>}
       <a
-        href="https://wa.me/+51956342071?text=Hola,%20me%20gustaría%20obtener%20más%20información."
+        href="https://wa.me/+51956342071?text=Quisiera%20más%20información%20acerca%20de%20los%20servicios%20de%20transporte."
         target="_blank"
         rel="noopener noreferrer"
         className={styles.whatsappButton}
