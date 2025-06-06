@@ -5,7 +5,7 @@ function VideoFondo({id}) {
   return (
     <div id={id} className="video-fondo-container">
       <video autoPlay loop muted className="video-fondo">
-        <source src="/Home.mp4" type="video/mp4" />
+        <source src="/cusco.mp4" type="video/mp4" />
         Tu navegador no soporta la etiqueta de video.
       </video>
       {/* <div className="degradado-verde"></div>  */}

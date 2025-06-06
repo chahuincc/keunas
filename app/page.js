@@ -12,9 +12,9 @@ import Footer from './components/Footer/Footer';
 export default function Home() {
   const data = [
     {url: '/circular-inca-terraces-of-moray.jpg', type: 'square', subtitle: 'Moray'},
-    {url: '/ollantaytambo-cusco-peru.jpg', type: 'square', subtitle: 'Ollantaytambo'},
+    {url: '/cuscoWomen.jpg', type: 'square', subtitle: 'cultura'},
     {url: '/Vinicunca.jpg', type: 'high', subtitle: 'Vinicunca'},
-    {url: '/visitando-el-machupicchu.jpg', type: 'long', subtitle: 'Machu Picchu'},
+    {url: '/machupicchu.jpg', type: 'long', subtitle: 'Machu Picchu'},
   ];
 
   return (
