@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer';
 
 export default function Home() {
   const data = [
-    {url: '/circular-inca-terraces-of-moray.jpg', type: 'square', subtitle: 'Moray'},
+    {url: '/moray.jpg', type: 'square', subtitle: 'Moray'},
     {url: '/cuscoWomen.jpg', type: 'square', subtitle: 'cultura'},
     {url: '/Vinicunca.jpg', type: 'high', subtitle: 'Vinicunca'},
     {url: '/machupicchu.jpg', type: 'long', subtitle: 'Machu Picchu'},
