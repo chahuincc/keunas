@@ -27,7 +27,7 @@ const NavBar = () => {
         <ul>
           <Link onClick={toggleMenu} className={styles.li} href="#home" >Inicio</Link>
           <Link onClick={toggleMenu} className={styles.li} href="#galery" >Galeria</Link>
-          <Link onClick={toggleMenu} className={styles.li} href="contact">Contactos</Link>
+          <Link onClick={toggleMenu} className={styles.li} href="#contact">Contactos</Link>
           <Link onClick={toggleMenu} className={styles.li} href="#about" >Servicios</Link>
         </ul>
       </nav>

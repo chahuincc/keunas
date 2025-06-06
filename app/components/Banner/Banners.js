@@ -9,7 +9,7 @@ const Banners = ({data, id}) => {
         <Image
           className={`${styles.bannerPrincipal} ${data[0].imgStyle} ${styles.banner}`}
           src={data[0].url}
-          alt="Next.js logo"
+          alt="Moray img"
           layout="fill"
           objectFit="cover" 
           />
@@ -19,7 +19,7 @@ const Banners = ({data, id}) => {
         <Image
             className={`${data[1].imgStyle} ${styles.banner}`}
             src={data[1].url}
-            alt="Next.js logo"
+            alt="cusco img"
             layout="fill"
             objectFit="cover" 
             priority
@@ -30,7 +30,7 @@ const Banners = ({data, id}) => {
         <Image
             className={`${data[2].imgStyle} ${styles.banner}`}
             src={data[2].url}
-            alt="Next.js logo"
+            alt="Cusco img"
             layout="fill"
           objectFit="cover" 
             priority
@@ -41,7 +41,7 @@ const Banners = ({data, id}) => {
         <Image
             className={`${data[3].imgStyle} ${styles.banner}`}
             src={data[3].url}
-            alt="Next.js logo"
+            alt="Cusco img"
             width={180}
             height={38}
             priority
